@@ -1,0 +1,3 @@
+module LuaJIT {
+	header "./src/lua.h"
+}
