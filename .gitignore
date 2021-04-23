@@ -10,5 +10,6 @@
 *.swp
 .tags
 
-.build/
-.swiftpm/
+.build
+lib
+.swiftpm
