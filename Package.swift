@@ -6,7 +6,9 @@ import PackageDescription
 let package = Package(
     name: "LuaJIT",
     platforms: [
-        .iOS("8.0")
+        .iOS("8.0"),
+        .macOS("10.12"),
+        .tvOS("9.0")
     ],
     products: [
         .library(
