@@ -5,7 +5,7 @@ XCTOOL_BIN=/usr/bin/
 
 BUILD_DIR="${LUAJIT}/.build"
 
-PUBLIC_HEADER_DIR="${LUAJIT}/src"
+PUBLIC_HEADER_DIR="${LUAJIT}/header"
 LIBRARY_DIR="${LUAJIT}/lib"
 
 rm -rf $BUILD_DIR
